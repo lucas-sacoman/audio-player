@@ -1,0 +1,158 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+body {
+   margin: 0;
+   padding: 10rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: linear-gradient(
+      115deg,
+      rgba(20, 20, 20, 0.829),
+      rgba(20, 20, 20, 0.829)
+    ),
+    url(https://images3.alphacoders.com/104/1044737.jpg);
+  background-size: auto;
+  background-position: center;
+}
+
+.player {
+   width: 40rem;
+   height: 40rem;
+   background-color: #fff;
+   border-radius: 0.3rem;
+   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15), 
+               0px 3px 2px -2px rgba(0, 0, 0, 0.15),
+               0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+   font-size: 35px;
+   font-weight: 400;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   padding: 15px;
+   color: #f3bb3a;
+}
+
+i {
+   margin: 0.3rem 0.5rem 0 0;
+   color:#111;
+}
+
+.card {
+   box-shadow: none;
+   margin: 0;
+   border-radius: 0.3rem;
+}
+
+.card-image {
+   height: 300px;
+}
+
+audio {
+   width: 100%;
+   margin-top: 30px;
+}
+
+h5, p {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h5 {
+   font-weight: bold;
+   margin-top: 40px;
+}
+
+p {
+   font-size: 18px;
+}
+
+#play-pause {
+   margin: 0;
+   background-color: #f3bb3a;
+   color: #111;
+}
+
+#play-pause:hover {
+   background-color: #d69600;
+   transition: 0.3s;
+}
+
+#play-button {
+   margin-right: 250px;
+}
+
+#skip-next {
+   margin: 0;
+   width: 2,2rem;
+   background-color: #f3bb3a;
+   color: #111;
+   transform: translateY(-10px)
+}
+
+#skip-next:hover {
+   background-color: #d69600;
+   transition: 0.3s;
+}
+
+#next-button {
+   width: 35px;
+   height: 35px;
+   margin-right: 150px;
+   transform: translateY(-10px);
+}
+
+#skip-previous {
+   margin: 0;
+   width: 2,2rem;
+   background-color: #f3bc3a;
+   color: #111;
+   transform: translateY(-10px);
+}
+
+#skip-previous:hover {
+   background-color: #d69600;
+   transition: 0.3s;
+}
+
+#previous-button {
+   width: 35px;
+   height: 35px;
+   margin-right: 370px;
+   transform: translateY(-10px);
+}
+
+#mute {
+   color: #111;
+}
+
+#current-duration {
+   width: 57px;
+}
+
+#current-duration,
+#total-duration {
+   font-size: 17px;
+   font-weight: bold;
+   transform: translateY(-1px);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+   background-color: #f3bb3a;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+   background-color: #d69600;
+   transition: 0.2s;
+}
+
+.row {
+   margin-top: 35px;
+}
